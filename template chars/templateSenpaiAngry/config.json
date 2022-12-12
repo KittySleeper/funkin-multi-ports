@@ -1,0 +1,141 @@
+{
+	"clone": "senpai-angry", "": "Copies the offsets of a character and a few interactions, disable it by removing this line or leaving it blank",
+	"no_antialiasing": true, "": "If set to true, forces antialiasing to be disabled, useful for Pixel characters",
+	"sing_duration": 4, "": "Duration of character sing animation's mult, Dad clones use 6.1 while everyone else uses 4",
+	"dance_idle": false, "": "Makes the character use danceRight/danceLeft animations instead of Idle, useful for Skid & Pump/GF clones",
+
+	"scale": 6, "": "Sprite scale on common stages, online lobby and Character Select screen, Senpai uses 6 while BF-Pixel/Spirit uses 6.6, everyone else uses 1",
+	"scale_pixel": 6, "": "Sprite scale on Pixel stages, Senpai/Spirit/BF-Pixel uses 6, everyone else uses 0.91",
+	"pixel_offset_scale": 1, "": "Fixes the animation offsets being a bit broken on Pixel stages for non-pixel characters, usually just set this to the same value as scale_pixel. This is dumb",
+	"online_offset_scale": 1, "": "Fixes the singing animations being a bit broken on Online Mode Lobby, Spirit/Senpai/BF-Pixel uses 1, everyone else uses 0.7. This is also dumb",
+
+	"voices": "senpai-angry", "": "Voices to be used on Lobby singing, set this to 'custom' if you want to use custom voice files, the files should be named 'sing_left.ogg', 'sing_up.ogg', 'sing_down.ogg' and 'sing_right.ogg', and should be located in your character's folder",
+	"alt_anims": false, "": "Enables alt animations like those from Parents-Christmas",
+	"flip_x": false, "": "Flips X axis from the sprite, useful for Boyfriend/Pico clones",
+
+	"animations":
+	[
+		{
+			"anim": "idle",
+			"name": "Angry Senpai Idle",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUP",
+			"name": "Angry Senpai UP NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFT",
+			"name": "Angry Senpai LEFT NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "Angry Senpai RIGHT NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWN",
+			"name": "Angry Senpai DOWN NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUPmiss",
+			"name": "Angry Senpai UP NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFTmiss",
+			"name": "Angry Senpai LEFT NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHTmiss",
+			"name": "Angry Senpai RIGHT NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWNmiss",
+			"name": "Angry Senpai DOWN NOTE",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		}
+	], "": "The idle/sing/miss animations are added automatically with the same values as Boyfriend's for preventing a dumb crash, you just have to add animations to this array if you want to edit something or add Hey/Scared animations to it",
+	"hey_anim": "", "": "Which animation should it use for the Bopeebo 'Hey!'",
+	"scared_anim": "", "": "Which animation should it use for Spooky Month stage scare",
+
+	"animations_offsets":
+	[
+		{
+			"anim": "idle",
+			"player1": [-350, -350],
+			"player2": [0, 0]
+		},
+		{
+			"anim": "singUP",
+			"player1": [-352, -314],
+			"player2": [5, 36]
+		},
+		{
+			"anim": "singRIGHT",
+			"player1": [-374, -350],
+			"player2": [6, 0]
+		},
+		{
+			"anim": "singLEFT",
+			"player1": [-350, -350],
+			"player2": [30, 0]
+		},
+		{
+			"anim": "singDOWN",
+			"player1": [-355, -350],
+			"player2": [12, 0]
+		},
+		{
+			"anim": "singUPmiss",
+			"player1": [-352, -314],
+			"player2": [5, 36]
+		},
+		{
+			"anim": "singRIGHTmiss",
+			"player1": [-374, -350],
+			"player2": [6, 0]
+		},
+		{
+			"anim": "singLEFTmiss",
+			"player1": [-350, -350],
+			"player2": [30, 0]
+		},
+		{
+			"anim": "singDOWNmiss",
+			"player1": [-336, -350],
+			"player2": [12, 0]
+		}
+	],
+
+	"common_stage_offset": [10, -20, 0, 0], "": "Your character's offset ingame on common stages as Player 1 and 2",
+	"pixel_stage_offset": [10, 9, 0, 7], "": "Your character's offset ingame on Pixel stages as Player 1 and 2",
+	"local_multiplayer_offset": [90, -20], "": "Your character's offset on the Local Multiplayer/Singleplayer Character Select screen",
+	"online_offset": [90, 11], "": "Your character's offset on Online Mode lobby",
+	"playername_relative": 191, "": "Relative (Y) position from the Player Name to their character on Online Mode Lobby",
+
+	"": "Sometimes i hate my own code, good luck messing with this! I will probably convert the Animation Debug into a Character Editor someday, idk"
+}

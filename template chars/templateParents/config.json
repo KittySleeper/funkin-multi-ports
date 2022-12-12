@@ -1,0 +1,237 @@
+{
+	"clone": "parents-christmas", "": "Copies the offsets of a character and a few interactions, disable it by removing this line or leaving it blank",
+	"no_antialiasing": false, "": "If set to true, forces antialiasing to be disabled, useful for Pixel characters",
+	"sing_duration": 4, "": "Duration of character sing animation's mult, Dad clones use 6.1 while everyone else uses 4",
+	"dance_idle": false, "": "Makes the character use danceRight/danceLeft animations instead of Idle, useful for Skid & Pump/GF clones",
+
+	"scale": 1, "": "Sprite scale on common stages, online lobby and Character Select screen, Senpai uses 6 while BF-Pixel/Spirit uses 6.6, everyone else uses 1",
+	"scale_pixel": 0.91, "": "Sprite scale on Pixel stages, Senpai/Spirit/BF-Pixel uses 6, everyone else uses 0.91",
+	"pixel_offset_scale": 0.91, "": "Fixes the animation offsets being a bit broken on Pixel stages for non-pixel characters, usually just set this to the same value as scale_pixel. This is dumb",
+	"online_offset_scale": 0.7, "": "Fixes the singing animations being a bit broken on Online Mode Lobby, Spirit/Senpai/BF-Pixel uses 1, everyone else uses 0.7. This is also dumb",
+
+	"voices": "parents-christmas", "": "Voices to be used on Lobby singing, set this to 'custom' if you want to use custom voice files, the files should be named 'sing_left.ogg', 'sing_up.ogg', 'sing_down.ogg' and 'sing_right.ogg', and should be located in your character's folder",
+	"alt_anims": true, "": "Enables alt animations like those from Parents-Christmas",
+	"flip_x": false, "": "Flips X axis from the sprite, useful for Boyfriend/Pico clones",
+
+	"animations":
+	[
+		{
+			"anim": "idle",
+			"name": "Parent Christmas Idle",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUP",
+			"name": "Parent Up Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFT",
+			"name": "Parent Left Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "Parent Right Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWN",
+			"name": "Parent Down Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUP-alt",
+			"name": "Parent Up Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFT-alt",
+			"name": "Parent Left Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHT-alt",
+			"name": "Parent Right Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWN-alt",
+			"name": "Parent Down Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUPmiss",
+			"name": "Parent Up Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFTmiss",
+			"name": "Parent Left Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHTmiss",
+			"name": "Parent Right Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWNmiss",
+			"name": "Parent Down Note Dad",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUPmiss-alt",
+			"name": "Parent Up Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFTmiss-alt",
+			"name": "Parent Left Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHTmiss-alt",
+			"name": "Parent Right Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWNmiss-alt",
+			"name": "Parent Down Note Mom",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		}
+	], "": "The idle/sing/miss animations are added automatically with the same values as Boyfriend's for preventing a dumb crash, you just have to add animations to this array if you want to edit something or add Hey/Scared animations to it",
+	"hey_anim": "", "": "Which animation should it use for the Bopeebo 'Hey!'",
+	"scared_anim": "", "": "Which animation should it use for Spooky Month stage scare",
+
+	"animations_offsets":
+	[
+		{
+			"anim": "idle",
+			"player1": [0, 0],
+			"player2": [0, 0]
+		},
+		{
+			"anim": "singUP",
+			"player1": [-30, 15],
+			"player2": [7, 15]
+		},
+		{
+			"anim": "singRIGHT",
+			"player1": [47, 15],
+			"player2": [-26, 15]
+		},
+		{
+			"anim": "singLEFT",
+			"player1": [48, 15],
+			"player2": [38, 15]
+		},
+		{
+			"anim": "singDOWN",
+			"player1": [-24, 15],
+			"player2": [8, 15]
+		},
+		{
+			"anim": "singUP-alt",
+			"player1": [-30, 15],
+			"player2": [7, 15]
+		},
+		{
+			"anim": "singRIGHT-alt",
+			"player1": [5, 15],
+			"player2": [-25, 15]
+		},
+		{
+			"anim": "singLEFT-alt",
+			"player1": [-45, 15],
+			"player2": [43, 15]
+		},
+		{
+			"anim": "singDOWN-alt",
+			"player1": [-28, 15],
+			"player2": [9, 15]
+		},
+		{
+			"anim": "singUPmiss",
+			"player1": [-36, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singRIGHTmiss",
+			"player1": [-36, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singLEFTmiss",
+			"player1": [-34, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singDOWNmiss",
+			"player1": [-36, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singUPmiss-alt",
+			"player1": [-34, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singRIGHTmiss-alt",
+			"player1": [-36, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singLEFTmiss-alt",
+			"player1": [-36, 15],
+			"player2": [-1, 15]
+		},
+		{
+			"anim": "singDOWNmiss-alt",
+			"player1": [-36, 15],
+			"player2": [-1, 15]
+		}
+	],
+
+	"common_stage_offset": [0, 10, 0, 10], "": "Your character's offset ingame on common stages as Player 1 and 2",
+	"pixel_stage_offset": [0, 70, 0, 70], "": "Your character's offset ingame on Pixel stages as Player 1 and 2",
+	"local_multiplayer_offset": [0, -250], "": "Your character's offset on the Local Multiplayer/Singleplayer Character Select screen",
+	"online_offset": [-20, -125], "": "Your character's offset on Online Mode lobby",
+	"playername_relative": 150, "": "Relative (Y) position from the Player Name to their character on Online Mode Lobby",
+
+	"": "Sometimes i hate my own code, good luck messing with this! I will probably convert the Animation Debug into a Character Editor someday, idk"
+}

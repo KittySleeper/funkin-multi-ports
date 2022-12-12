@@ -1,0 +1,89 @@
+{
+	"clone": "pico",
+	"sing_duration": 4,
+	"scale": 1,
+	"scale_pixel": 0.91,
+	"pixel_offset_scale": 0.91,
+	"online_offset_scale": 0.7,
+
+	"voices": "pico",
+	"flip_x": true,
+
+	"animations":
+	[
+		{
+			"anim": "idle",
+			"name": "Pico Idle Dance",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUP",
+			"name": "pico Up note",
+			"fps": 24,
+			"loop": false,
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+		},
+		{
+			"anim": "singLEFT",
+			"name": "Pico Note Right",
+			"fps": 24,
+			"loop": false,
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "Pico NOTE LEFT",
+			"fps": 24,
+			"loop": false,
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+		},
+		{
+			"anim": "singDOWN",
+			"name": "Pico Down Note",
+			"fps": 24,
+			"loop": false,
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		},
+		{
+			"anim": "singUPmiss",
+			"name": "pico Up note miss",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFTmiss",
+			"name": "Pico Note Right Miss",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHTmiss",
+			"name": "Pico NOTE LEFT miss",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWNmiss",
+			"name": "Pico Down Note MISS",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		}
+	],
+	"hey_anim": "",
+	"scared_anim": "",
+
+	"animations_offsets":
+	[
+	],
+
+	"common_stage_offset": [0, 0, 0, 0],
+	"pixel_stage_offset": [0, 0, 0, 0],
+	"local_multiplayer_offset": [0, 0],
+	"online_offset": [0, 0]
+}
