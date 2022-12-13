@@ -1,0 +1,90 @@
+{
+	"no_antialiasing": false, "": "If set to true, forces antialiasing to be disabled, useful for Pixel characters",
+	"sing_duration": 6.1, "": "Duration of character sing animation's mult, Dad clones use 6.1 while everyone else uses 4",
+	"dance_idle": false, "": "Makes the character use danceRight/danceLeft animations instead of Idle, useful for Skid & Pump/GF clones",
+
+	"scale": 1, "": "Sprite scale on common stages, online lobby and Character Select screen, Senpai uses 6 while BF-Pixel/Spirit uses 6.6, everyone else uses 1",
+	"scale_pixel": 0.92, "": "Sprite scale on Pixel stages, Senpai/Spirit/BF-Pixel uses 6, everyone else uses 0.91",
+	"pixel_offset_scale": 0.92, "": "Fixes the animation offsets being a bit broken on Pixel stages for non-pixel characters, usually just set this to the same value as scale_pixel. This is dumb",
+	"online_offset_scale": 0.7, "": "Fixes the singing animations being a bit broken on Online Mode Lobby, Spirit/Senpai/BF-Pixel uses 1, everyone else uses 0.7. This is also dumb",
+
+	"voices": "mom", "": "Voices to be used on Lobby singing, set this to 'custom' if you want to use custom voice files, the files should be named 'sing_left.ogg', 'sing_up.ogg', 'sing_down.ogg' and 'sing_right.ogg', and should be located in your character's folder",
+	"alt_anims": false, "": "Enables alt animations like those from Parents-Christmas",
+	"flip_x": false, "": "Flips X axis from the sprite, useful for Boyfriend/Pico clones",
+
+	"animations":
+	[
+		{
+			"anim": "idle",
+			"name": "Whitty idle dance",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUP",
+			"name": "Whitty Sing Note UP",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFT",
+			"name": "Whitty Sing Note LEFT",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "whitty sing note right",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWN",
+			"name": "Whitty Sing Note DOWN",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		}
+	],
+
+	"animations_offsets":
+	[
+		{
+			"anim": "idle",
+			"player1": [0, 10],
+			"player2": [0, 10]
+		},
+		{
+			"anim": "singUP",
+			"player1": [34, 121],
+			"player2": [34, 121]
+		},
+		{
+			"anim": "singRIGHT",
+			"player1": [123, -57],
+			"player2": [123, -57]
+		},
+	    {
+			"anim": "singDOWN",
+			"player1": [90, -103],
+			"player2": [90, -103]
+		},
+		{
+			"anim": "singLEFT",
+			"player1": [79, 16],
+			"player2": [79, 16]
+		}
+	],
+
+	"common_stage_offset": [0, 0, 0, 0], "": "Your character's offset ingame on common stages as Player 1 and 2",
+	"pixel_stage_offset": [0, 0, 0, 0], "": "Your character's offset ingame on Pixel stages as Player 1 and 2",
+	"local_multiplayer_offset": [-110, -312], "": "Your character's offset on the Local Multiplayer/Singleplayer Character Select screen",
+	"online_offset": [-98.2, -113], "": "Your character's offset on Online Mode lobby",
+	"playername_relative": 124, "": "Relative (Y) position from the Player Name to their character on Online Mode Lobby",
+
+	"": "Sometimes i hate my own code, good luck messing with this! I will probably convert the Animation Debug into a Character Editor someday, idk"
+}

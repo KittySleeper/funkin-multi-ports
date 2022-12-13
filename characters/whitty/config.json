@@ -1,0 +1,90 @@
+{
+	"no_antialiasing": false, "": "If set to true, forces antialiasing to be disabled, useful for Pixel characters",
+	"sing_duration": 6.1, "": "Duration of character sing animation's mult, Dad clones use 6.1 while everyone else uses 4",
+	"dance_idle": false, "": "Makes the character use danceRight/danceLeft animations instead of Idle, useful for Skid & Pump/GF clones",
+
+	"scale": 1, "": "Sprite scale on common stages, online lobby and Character Select screen, Senpai uses 6 while BF-Pixel/Spirit uses 6.6, everyone else uses 1",
+	"scale_pixel": 0.92, "": "Sprite scale on Pixel stages, Senpai/Spirit/BF-Pixel uses 6, everyone else uses 0.91",
+	"pixel_offset_scale": 0.92, "": "Fixes the animation offsets being a bit broken on Pixel stages for non-pixel characters, usually just set this to the same value as scale_pixel. This is dumb",
+	"online_offset_scale": 0.7, "": "Fixes the singing animations being a bit broken on Online Mode Lobby, Spirit/Senpai/BF-Pixel uses 1, everyone else uses 0.7. This is also dumb",
+
+	"voices": "tankman", "": "Voices to be used on Lobby singing, set this to 'custom' if you want to use custom voice files, the files should be named 'sing_left.ogg', 'sing_up.ogg', 'sing_down.ogg' and 'sing_right.ogg', and should be located in your character's folder",
+	"alt_anims": false, "": "Enables alt animations like those from Parents-Christmas",
+	"flip_x": false, "": "Flips X axis from the sprite, useful for Boyfriend/Pico clones",
+
+	"animations":
+	[
+		{
+			"anim": "idle",
+			"name": "Idle",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singUP",
+			"name": "Sing Up",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singLEFT",
+			"name": "Sing Left",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "Sing Right",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		},
+		{
+			"anim": "singDOWN",
+			"name": "Sing Down",
+			"fps": 24,
+			"loop": false,
+			"indices": []
+		}
+	],
+
+	"animations_offsets":
+	[
+		{
+			"anim": "idle",
+			"player1": [0, 10],
+			"player2": [0, 10]
+		},
+		{
+			"anim": "singUP",
+			"player1": [-6, 51],
+			"player2": [-6, 51]
+		},
+		{
+			"anim": "singRIGHT",
+			"player1": [3, 13],
+			"player2": [3, 53]
+		},
+	    {
+			"anim": "singDOWN",
+			"player1": [0, -33],
+			"player2": [0, -33]
+		},
+		{
+			"anim": "singLEFT",
+			"player1": [-11, 6],
+			"player2": [-11, 6]
+		}
+	],
+
+	"common_stage_offset": [0, 0, 0, 0], "": "Your character's offset ingame on common stages as Player 1 and 2",
+	"pixel_stage_offset": [0, 0, 0, 0], "": "Your character's offset ingame on Pixel stages as Player 1 and 2",
+	"local_multiplayer_offset": [0, -300], "": "Your character's offset on the Local Multiplayer/Singleplayer Character Select screen",
+	"online_offset": [-20, -140], "": "Your character's offset on Online Mode lobby",
+	"playername_relative": 200, "": "Relative (Y) position from the Player Name to their character on Online Mode Lobby",
+
+	"": "Sometimes i hate my own code, good luck messing with this! I will probably convert the Animation Debug into a Character Editor someday, idk"
+}
