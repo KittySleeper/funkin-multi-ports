@@ -2,5 +2,7 @@ lo-fight
 overhead
 ballistic
 ballistic-old
+foolhardy
+bushwhack
 EEEAAAOOO
 rolled

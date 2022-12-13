@@ -50,6 +50,9 @@
 			"indices": []
 		}
 	],
+	"hey_anim": "idle", "": "Which animation should it use for the Bopeebo 'Hey!'",
+	"scared_anim": "idle", "": "Which animation should it use for Spooky Month stage scare",
+
 
 	"animations_offsets":
 	[
@@ -60,22 +63,22 @@
 		},
 		{
 			"anim": "singUP",
-			"player1": [34, 121],
+			"player1": [25, 115],
 			"player2": [34, 121]
 		},
 		{
 			"anim": "singRIGHT",
-			"player1": [123, -57],
+			"player1": [100, 33],
 			"player2": [123, -57]
 		},
 	    {
 			"anim": "singDOWN",
-			"player1": [90, -103],
+			"player1": [90, -111],
 			"player2": [90, -103]
 		},
 		{
 			"anim": "singLEFT",
-			"player1": [79, 16],
+			"player1": [155, -65],
 			"player2": [79, 16]
 		}
 	],

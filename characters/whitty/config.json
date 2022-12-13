@@ -50,6 +50,8 @@
 			"indices": []
 		}
 	],
+	"hey_anim": "idle", "": "Which animation should it use for the Bopeebo 'Hey!'",
+	"scared_anim": "idle", "": "Which animation should it use for Spooky Month stage scare",
 
 	"animations_offsets":
 	[

@@ -79,8 +79,8 @@
 			"indices": []
 		}
 	], "": "The idle/sing/miss animations are added automatically with the same values as Boyfriend's for preventing a dumb crash, you just have to add animations to this array if you want to edit something or add Hey/Scared animations to it",
-	"hey_anim": "", "": "Which animation should it use for the Bopeebo 'Hey!'",
-	"scared_anim": "", "": "Which animation should it use for Spooky Month stage scare",
+	"hey_anim": "idle", "": "Which animation should it use for the Bopeebo 'Hey!'",
+	"scared_anim": "idle", "": "Which animation should it use for Spooky Month stage scare",
 
 	"animations_offsets":
 	[
@@ -114,8 +114,8 @@
 	"common_stage_offset": [0, 0, 0, 0], "": "Your character's offset ingame on common stages as Player 1 and 2",
 	"pixel_stage_offset": [0, 0, 0, 0], "": "Your character's offset ingame on Pixel stages as Player 1 and 2",
 	"local_multiplayer_offset": [0, -300], "": "Your character's offset on the Local Multiplayer/Singleplayer Character Select screen",
-	"online_offset": [-20, -140], "": "Your character's offset on Online Mode lobby",
-	"playername_relative": 200, "": "Relative (Y) position from the Player Name to their character on Online Mode Lobby",
+	"online_offset": [-1.3, -125.2], "": "Your character's offset on Online Mode lobby",
+	"playername_relative": 67, "": "Relative (Y) position from the Player Name to their character on Online Mode Lobby",
 
 	"": "Sometimes i hate my own code, good luck messing with this! I will probably convert the Animation Debug into a Character Editor someday, idk"
 }

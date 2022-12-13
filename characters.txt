@@ -1,4 +1,6 @@
 bf-rick
 whitty
 whitty-ballistic
+zardy
+cablecrow
 lila
