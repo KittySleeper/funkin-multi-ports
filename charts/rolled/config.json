@@ -1,0 +1,5 @@
+{
+	"icon": "bf", "": "Main character head icon for Singleplayer/Local Multiplayer",
+	"stage": "dadbattle", "": "Tricks the game into thinking you're playing on the said stage, adding camera zooms and shit like that",
+	"name": "Rick Rolled!!!", "": "Name to be shown on Singleplayer/Local Multiplayer and Discord's Rich Presence"
+}

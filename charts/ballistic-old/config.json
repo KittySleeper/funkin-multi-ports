@@ -2,6 +2,6 @@
 	"icon": "whitty-ballistic", "": "Main character head icon for Singleplayer/Local Multiplayer",
 	"stage": "dadbattle", "": "Tricks the game into thinking you're playing on the said stage, adding camera zooms and shit like that",
 	"name": "Ballistic (old)", "": "Name to be shown on Singleplayer/Local Multiplayer and Discord's Rich Presence",
-	"color": 2171456, "": "Decimal value of a color's hex, format is ARGB, convert it to decimal with the calculator (Add an 'FF' at the start though)",
+	"color": -2421491, "": "Decimal value of a color's hex, format is ARGB, convert it to decimal with the calculator (Add an 'FF' at the start though)",
 	"read_only": false, "": "Hides the song from the song select list, useful on Online mode if you want it to be loaded when you're connected to a server but will never play it while hosting"
 }
