@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="spinel solo.png">
+<SubTexture name="spinel idle0000" x="0" y="0" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel idle0001" x="1213" y="0" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel idle0002" x="2426" y="0" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel idle0003" x="3639" y="0" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel idle0004" x="4852" y="0" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel idle0005" x="0" y="943" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel idle0006" x="1213" y="943" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel left0000" x="2426" y="943" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel left0001" x="3639" y="943" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel left0002" x="4852" y="943" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel left0003" x="0" y="1886" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel left0004" x="1213" y="1886" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel down0000" x="2426" y="1886" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel down0001" x="3639" y="1886" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel down0002" x="4852" y="1886" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel down0003" x="0" y="2829" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel down0004" x="1213" y="2829" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel up0000" x="2426" y="2829" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel up0001" x="3639" y="2829" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel up0002" x="4852" y="2829" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel up0003" x="0" y="3772" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel up0004" x="1213" y="3772" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel right0000" x="2426" y="3772" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel right0001" x="3639" y="3772" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel right0002" x="4852" y="3772" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel right0003" x="0" y="4715" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+<SubTexture name="spinel right0004" x="1213" y="4715" width="1213" height="943" frameX="0" frameY="0" frameWidth="1213" frameHeight="943" />
+</TextureAtlas>

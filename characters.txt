@@ -4,3 +4,5 @@ whitty-ballistic
 zardy
 cablecrow
 lila
+steve-currupt
+spinel-currupt
