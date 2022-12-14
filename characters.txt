@@ -6,3 +6,8 @@ cablecrow
 lila
 steve-currupt
 spinel-currupt
+stewie
+peter
+peter-currupt
+brian-currupt
+lois-currupt
